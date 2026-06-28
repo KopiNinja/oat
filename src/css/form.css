@@ -14,6 +14,7 @@
   }
 
   :where(input:not([type=checkbox], [type=radio], [type=range], [type=file], [type=color]), textarea, select) {
+    font-family: var(--font-sans);
     width: 100%;
     margin-block-start: var(--space-1);
     padding: var(--space-2) var(--space-3);
